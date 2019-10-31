@@ -4,7 +4,7 @@ OBJ=$(SRC:.c=.o)
 
 CC=gcc
 CFLAGS=-I. -I./lib -I/usr/local/include -ggdb
-LDFLAGS=-L./lib -lpopup -lpaho-mqtt3c -lpaho-mqtt3a 
+LDFLAGS=libpaho-mqtt3a.so 
 
 
 
